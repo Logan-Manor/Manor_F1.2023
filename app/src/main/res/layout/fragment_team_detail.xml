@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".team.TeamDetailFragment">
+
+    <TextView
+        android:id="@+id/team_rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team Rank" />
+
+    <TextView
+        android:id="@+id/team_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team Name" />
+
+    <TextView
+        android:id="@+id/team_chief"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team Chief" />
+
+    <TextView
+        android:id="@+id/team_driver1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Driver 1" />
+
+    <TextView
+        android:id="@+id/team_driver2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Driver 2" />
+
+    <TextView
+        android:id="@+id/team_championships"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team Championships" />
+
+</LinearLayout>
