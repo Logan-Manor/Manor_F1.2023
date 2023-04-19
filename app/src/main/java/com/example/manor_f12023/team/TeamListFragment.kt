@@ -45,7 +45,7 @@ class TeamListFragment : Fragment() {
                     binding.teamRecyclerView.adapter =
                         TeamListAdapter(teams) {TeamRank ->
                             findNavController().navigate(
-                                TeamListFragmentDirections.showTeamDetail(TeamRank)
+                                teamListFragmentDirections.showTeamDetail(TeamRank)
                             )
                         }
                 }

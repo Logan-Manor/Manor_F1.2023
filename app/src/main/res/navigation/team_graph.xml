@@ -8,14 +8,19 @@
     <fragment
         android:id="@+id/teamListFragment"
         android:name="com.example.manor_f12023.team.TeamListFragment"
-        android:label="TeamListFragment" >
+        android:label="TeamListFragment"
+        tools:layout="@layout/fragment_team_list">
         <action
-            android:id="@+id/action_teamListFragment_to_teamDetailFragment"
+            android:id="@+id/show_team_detail"
             app:destination="@id/teamDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/teamDetailFragment"
         android:name="com.example.manor_f12023.team.TeamDetailFragment"
-        android:label="fragment_team_detail"
-        tools:layout="@layout/fragment_team_detail" />
+        android:label="TeamDetailFragment"
+        tools:layout="@layout/fragment_team_detail" >
+        <argument
+            android:name="TeamRank"
+            app:argType="integer" />
+    </fragment>
 </navigation>

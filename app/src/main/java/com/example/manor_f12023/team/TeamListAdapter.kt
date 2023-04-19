@@ -3,6 +3,7 @@ package com.example.manor_f12023.team
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.manor_f12023.databinding.ListItemTeamBinding
 
 class TeamHolder(
     private val binding: ListItemTeamBinding
